@@ -26,6 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install PHP 7.3.8
 - Install VC Redist
 - Install MySQL 5.5.62
+- Install osTicket v1.15.8
 - Install HeidiSQL
 
 <h2>Installation Steps</h2>
@@ -63,6 +64,43 @@ Next, I created a new directory under the C Drive (C:\PHP), then installed PHP 7
 </p>
 <br />
 <img width="500" alt="image" src="https://github.com/devinlanouette904/osticket-prereqs/assets/142081954/9b629cb5-389f-4249-87fb-0eb984dc167d">
+
 </p>
 <p>
 Next, I installed VC Redist. 
+</p>
+<br />
+<img width="500" alt="image" src="https://github.com/devinlanouette904/osticket-prereqs/assets/142081954/f9e99a47-82de-443e-8900-d941fb7fe26e">
+
+</p>
+<p>
+Next, I installed MySQL using a typical setup and standard configuration. 
+</p>
+<br />
+<img width="500" alt="image" src="https://github.com/devinlanouette904/osticket-prereqs/assets/142081954/8f99a3ec-04ce-4aa8-afad-cc7a4acac21f">
+
+</p>
+<p>
+Next, I registered PHP from within IIS. Using the directory (C:\PHP) I created under the C Drive, I used the path php-cgi.exe.
+</p>
+<br />
+<img width="500" alt="image" src="https://github.com/devinlanouette904/osticket-prereqs/assets/142081954/795a75ac-3b18-49a7-bd87-aa8013f2a4a2">
+
+</p>
+<p>
+Next, I installed osTicket v.1.15.8 and enabled the extensions php_imap.dll, php_intl.dll, and php_opcahce.dll within IIS. 
+</p>
+<br />
+<img width="500" alt="image" src="https://github.com/devinlanouette904/osticket-prereqs/assets/142081954/ea8c83cd-aeef-4924-b249-e19525c0c459">
+
+</p>
+<p>
+Next, I installed HeidiSQL, created a new session, and created a database called "osTicket" within HeidiSQL.
+</p>
+<br />
+<img width="500" alt="image" src="https://github.com/devinlanouette904/osticket-prereqs/assets/142081954/a0b4578e-de1c-412f-a41c-502bdc43cec6">
+
+</p>
+<p>
+Finally, I continued setting up osTicket within the browser, and successfully installed and was able to log in with no errors. 
+</p>
