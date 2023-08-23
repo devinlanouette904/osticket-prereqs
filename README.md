@@ -20,6 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
+- Setup resources in Microsoft Azure 
 - Install and enable Internet Information Services (IIS) and IIS Management Console 
 - Install PHP Manager for IIS
 - Install URL Rewrite Module 
